@@ -4,7 +4,7 @@
 /*GLOBAL*/
 body {
     padding-top: 5rem;
-
+    padding-bottom: 40px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -16,7 +16,7 @@ main {
     padding: 20px;
 }
 main.container-fluid {
-    width: 50%;
+    max-width: 650px;
 }
 
 p {
@@ -88,4 +88,26 @@ img.dibley {
 .box6 {
     grid-area: 5/1/6/4;
     background-color: green;
+}
+
+/*style for footer*/
+.fixed-bottom {
+    background-color: lightgray;
+    text-align: auto;
+    bottom: 0;
+}
+
+/*style for tabs on lists.html*/
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+.container {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.tab-content {
+    overflow: hidden;
 }
